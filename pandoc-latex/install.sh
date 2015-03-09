@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update 
-apt-get install -y texlive texlive-full pandoc
+apt-get install -y texlive texlive-full pandoc gpp
 
 apt-get -y autoclean
 apt-get -y clean 
