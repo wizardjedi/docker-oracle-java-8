@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get install -y wget build-essential autoconf libtool git
+apt-get install -y wget curl build-essential autoconf libtool git unzip
 
 cd tmp
 wget http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
