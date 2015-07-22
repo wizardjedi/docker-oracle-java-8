@@ -1,7 +1,11 @@
 #!/bin/bash
 
+
+
 apt-get update
 apt-get install -y wget curl build-essential autoconf libtool git unzip
+
+# erlang 18.0
 
 cd tmp
 wget http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
